@@ -4,6 +4,7 @@ tasks:
   # from https://www.gitpod.io/docs/languages/go#start-up-tasks
   - init: |
       GOBIN=/tmp/ go install github.com/go-delve/delve/cmd/dlv@master
+      mkdir $GOPATH/bin
       mv /tmp/dlv $GOPATH/bin/dlv-dap
       go get -v -t -d ./...
     command: |
