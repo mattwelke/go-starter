@@ -10,4 +10,3 @@ After using this template:
 If using Gitpod, also:
 
 - Replace `https://github.com/mattwelke/go-starter` in the "Open in Gitpod" button in this file with the project URL you end up using. For example, `https://github.com/your-github-account/your-new-repo`.
-- Replace `go-starter` in `.gitpod.yml` with the name of the repo you end up using. For example, `your-new-repo`.
