@@ -3,6 +3,7 @@
 tasks:
   # from https://www.gitpod.io/docs/languages/go#start-up-tasks
   - init: |
+      go get -v github.com/go-delve/delve/cmd/dlv
       go get -v -t -d ./...
     command: |
       go build -o app && ./app
